@@ -1,4 +1,5 @@
 body {
+  height: 3000px;
 }
 
 a {
@@ -6,10 +7,26 @@ a {
 }
 
 .navbar{
-  background-color: transparent;
+  background: transparent !important;
+  color: white !important;
   border-bottom: white;
   border-bottom-style: solid;
   border-bottom-width: 3px;
+  
+}
+
+#logo {
+	vertical-align:middle;
+}
+
+.navbar-brand {
+  height: auto;
+  width: auto;
+}
+
+.scrolled{
+  background: red !important;
+  color: black !important;
 }
 
 .navbar-nav{
@@ -19,7 +36,5 @@ a {
 
 .search{
   border: 75% 0 0 100%;
-  display: flex;
-  flex-direction: row;
 }
 
