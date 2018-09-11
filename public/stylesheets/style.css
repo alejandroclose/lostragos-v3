@@ -4,10 +4,9 @@ body {
 
 .navbar {
   background: transparent !important;
-  color: white !important;
-  border-bottom: white;
+  border-bottom:rgba(255,255,255,.5);
   border-bottom-style: solid;
-  border-bottom-width: 3px;
+  border-bottom-width: 1px;
 }
 
 .navbar>.container-fluid {
@@ -26,6 +25,16 @@ body {
     width: 190px;
     background-image: url("/images/logo-horizontal-navbar-sm.png");
   }
+  #logo{
+    width: 190px;
+  }
+
+  .cover{
+    background-image: url("/images/cover-photo.jpg");
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: 920px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -34,15 +43,25 @@ body {
     width: 278px;
     background-image: url("/images/logo-horizontal-navbar.png");
   }
+  #logo{
+    width: 278px;
+  }
+
+  .cover{
+    background-image: url("/images/cover-photo.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .scrolled {
-  background: red !important;
-  color: white !important;
+  background: white !important;
+  color: red !important;
 }
 
 .navbar-nav {
-  margin: 0 6% 0 0;
+  color: purple;
 }
 
 .search {
