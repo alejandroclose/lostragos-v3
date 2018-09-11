@@ -1,5 +1,10 @@
 body {
   height: 3000px;
+  font-size: 1.5em;
+}
+
+.nav-text{
+  color: white;
 }
 
 .navbar {
@@ -7,6 +12,16 @@ body {
   border-bottom:rgba(255,255,255,.5);
   border-bottom-style: solid;
   border-bottom-width: 1px;
+  transition: 500ms ease;
+}
+
+.scrolled {
+  background: white !important;
+  color: red !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
 }
 
 .navbar>.container-fluid {
@@ -55,10 +70,7 @@ body {
   }
 }
 
-.scrolled {
-  background: white !important;
-  color: red !important;
-}
+
 
 .navbar-nav {
   color: purple;
