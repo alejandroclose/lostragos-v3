@@ -2,39 +2,49 @@ body {
   height: 3000px;
 }
 
-a {
-  color: #00B7FF;
-}
-
-.navbar{
+.navbar {
   background: transparent !important;
   color: white !important;
   border-bottom: white;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  
 }
 
-#logo {
-	vertical-align:middle;
+.navbar>.container-fluid {
+  justify-content:space-between;
 }
 
-.navbar-brand {
-  height: auto;
-  width: auto;
+
+.navbar-toggler{
+  border:none;
 }
 
-.scrolled{
+@media (max-width: 768px) {
+  .navbar-brand {
+    text-align: center;
+    height: 27px;
+    width: 190px;
+    background-image: url("/images/logo-horizontal-navbar-sm.png");
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-brand {
+    height: 40px;
+    width: 278px;
+    background-image: url("/images/logo-horizontal-navbar.png");
+  }
+}
+
+.scrolled {
   background: red !important;
-  color: black !important;
+  color: white !important;
 }
 
-.navbar-nav{
+.navbar-nav {
   margin: 0 6% 0 0;
-  
 }
 
-.search{
+.search {
   border: 75% 0 0 100%;
 }
-
