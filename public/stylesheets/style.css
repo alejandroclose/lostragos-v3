@@ -1,15 +1,16 @@
 body {
   height: 3000px;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
 }
 
-.nav-text{
+.nav-text {
   color: white;
 }
 
 .navbar {
   background: transparent !important;
-  border-bottom:rgba(255,255,255,.5);
+  border-bottom: rgba(255, 255, 255, 0.5);
   border-bottom-style: solid;
   border-bottom-width: 1px;
   transition: 500ms ease;
@@ -17,20 +18,18 @@ body {
 
 .scrolled {
   background: white !important;
-  color: red !important;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: white;
 }
 
-.navbar>.container-fluid {
-  justify-content:space-between;
+.navbar > .container-fluid {
+  justify-content: space-between;
 }
 
-
-.navbar-toggler{
-  border:none;
+.navbar-toggler {
+  border: none;
 }
 
 @media (max-width: 768px) {
@@ -40,15 +39,36 @@ body {
     width: 190px;
     background-image: url("/images/logo-horizontal-navbar-sm.png");
   }
-  #logo{
+  #logo {
     width: 190px;
   }
 
-  .cover{
+  .cover {
     background-image: url("/images/cover-photo.jpg");
-    height: 900px;
+    height: 700px;
     background-repeat: no-repeat;
-    background-size: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cover-logo{
+    background-image: url("/images/lostragos_logo_home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 217px;
+  }
+
+  .cover-text{
+    color: white;
+    font-weight: bold;
+
+  }
+
+  .cover-description{
+    color: white;
   }
 }
 
@@ -58,23 +78,57 @@ body {
     width: 278px;
     background-image: url("/images/logo-horizontal-navbar.png");
   }
-  #logo{
+  #nav-logo {
     width: 278px;
   }
 
-  .cover{
+  .cover {
     background-image: url("/images/cover-photo.jpg");
-    height: 800px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
+  .cover-logo{
+    background-image: url("/images/lostragos_logo_home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 217px;
+  }
+
+  .cover-text{
+    color: white;
+    font-weight: bold;
+
+  }
+
+  .cover-description{
+    color: white;
+  }
+
 }
-
-
 
 .navbar-nav {
   color: purple;
 }
+
+.nav-item{
+  margin: 0 10px 0 10px;
+}
+
+/* .custom-carets .dropdown-toggle:after{
+  font-family: FontAwesome;
+  content: "\f107";
+}
+
+.custom-carets .dropdown-toggle > span.caret{
+  display: none;
+} */
 
 .search {
   border: 75% 0 0 100%;
