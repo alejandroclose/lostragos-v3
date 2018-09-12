@@ -53,7 +53,7 @@ body {
     align-items: center;
   }
 
-  .cover-logo{
+  .cover-logo {
     background-image: url("/images/lostragos_logo_home.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,14 +61,15 @@ body {
     height: 217px;
   }
 
-  .cover-text{
+  .cover-text {
     color: white;
     font-weight: bold;
-
+    text-align: center;
   }
 
-  .cover-description{
+  .cover-description {
     color: white;
+    text-align: center;
   }
 }
 
@@ -93,7 +94,7 @@ body {
     align-items: center;
   }
 
-  .cover-logo{
+  .cover-logo {
     background-image: url("/images/lostragos_logo_home.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,34 +102,38 @@ body {
     height: 217px;
   }
 
-  .cover-text{
+  .cover-text {
     color: white;
     font-weight: bold;
-
+    text-align: center;
   }
 
-  .cover-description{
+  .cover-description {
     color: white;
+    text-align: center;
   }
-
 }
 
 .navbar-nav {
   color: purple;
 }
 
-.nav-item{
+.nav-item {
   margin: 0 10px 0 10px;
 }
 
-/* .custom-carets .dropdown-toggle:after{
-  font-family: FontAwesome;
-  content: "\f107";
-}
+.custom-carets .dropdown-toggle:after{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f107";
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  vertical-align: 0;
+  }
 
-.custom-carets .dropdown-toggle > span.caret{
+.custom-carets .dropdown-toggle:after> .span.caret{
   display: none;
-} */
+}
 
 .search {
   border: 75% 0 0 100%;
